@@ -1,5 +1,14 @@
-/*Header*/
-.page-header {
+/* 0-768px */
+@media screen and (max-width: 768px) {
+  .navigation-list {
+    display: none;
+  }
+  .address {
+    display: none;
+  }
+}
+
+/* .page-header {
   border-bottom: 1px solid var(--cornflower-color);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -94,4 +103,4 @@
 .address-contact:hover,
 .address-contact:focus {
   color: var(--ocean-color);
-}
+} */
