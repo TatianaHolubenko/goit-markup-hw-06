@@ -1,0 +1,45 @@
+:root {
+  /* COLORS */
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --navy-blue-color: #2e2f42;
+  --green-color: #31d0aa;
+  --slate-color: #434455;
+  --light-slate-color: #8e8f99;
+  --cornflower-color: #e7e9fc;
+  --cloud-color: #f4f4fd;
+  --white-color: #ffffff;
+  --dairy-color: #fcfcfc;
+
+  /* TEXT */
+
+  --accent-font-family: 'Raleway', sans-serif;
+  --main-font-family: 'Roboto', sans-serif;
+
+  --bold-font-weight: 700;
+  --medium-font-weight: 500;
+  --regular-font-weight: 400;
+
+  --logo-font-size: 18px;
+  --hero-title-font-size: 56px;
+  --second-level-title-font-size: 36px;
+  --third-level-title-font-size: 20px;
+  --body-font-size: 16px;
+  --input-text-font-size: 14px;
+  --small-font-size: 12px;
+
+  --logo-line-height: 1.17;
+  --hero-title-line-height: 1.07;
+  --second-level-title-line-height: 1.11;
+  --third-level-title-line-height: 1.2;
+  --text-line-height: 1.5;
+  --input-text-line-height: 1.16;
+
+  --main-letter-spacing: 0.02em;
+  --logo-letter-spacing: 0.03em;
+  --button-letter-spacing: 0.04em;
+
+  /* ANIMATION */
+  --transition-duration: 250ms;
+  --transition-time-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

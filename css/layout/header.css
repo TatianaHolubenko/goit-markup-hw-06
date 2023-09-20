@@ -1,0 +1,97 @@
+/*Header*/
+.page-header {
+  border-bottom: 1px solid var(--cornflower-color);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.header-container {
+  display: flex;
+}
+
+.logo {
+  margin-right: 76px;
+
+  color: var(--iris-color);
+  font-family: var(--accent-font-family);
+  font-size: var(--logo-font-size);
+  font-weight: var(--bold-font-weight);
+  line-height: var(--logo-line-height);
+  letter-spacing: var(--logo-letter-spacing);
+  text-transform: uppercase;
+}
+.accent {
+  color: var(--navy-blue-color);
+  font-family: var(--accent-font-family);
+  font-size: var(--logo-font-size);
+  font-weight: var(--bold-font-weight);
+  line-height: var(--logo-line-height);
+  letter-spacing: var(--logo-letter-spacing);
+  text-transform: uppercase;
+}
+.page-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.navigation-list {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 40px;
+}
+.navigation-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  color: var(--navy-blue-color);
+  font-weight: var(--medium-font-weight);
+  line-height: var(--text-line-height);
+  letter-spacing: var(--main-letter-spacing);
+  position: relative;
+  transition: color var(--transition-duration) var(--transition-time-function);
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--ocean-color);
+}
+.line {
+  color: var(--ocean-color);
+}
+.line:after {
+  display: block;
+  content: '';
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--ocean-color);
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}
+.address {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 40px;
+
+  color: var(--slate-color);
+  line-height: var(--text-line-height);
+  letter-spacing: var(--main-letter-spacing);
+}
+.address-list {
+  display: flex;
+  column-gap: 40px;
+}
+.address-contact {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  color: var(--slate-color);
+  font-style: normal;
+  letter-spacing: var(--main-letter-spacing);
+  transition: color var(--transition-duration) var(--transition-time-function);
+}
+.address-contact:hover,
+.address-contact:focus {
+  color: var(--ocean-color);
+}
