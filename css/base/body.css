@@ -1,0 +1,11 @@
+body {
+  font-family: var(--main-font-family);
+  color: var(--slate-color);
+  background-color: var(--white-color);
+  font-size: var(--body-font-size);
+}
+@media screen and (min-width: 320px) {
+  body {
+    overflow-x: auto;
+  }
+}

@@ -29,9 +29,4 @@ img {
   display: block;
   height: auto;
 }
-body {
-  font-family: var(--main-font-family);
-  color: var(--slate-color);
-  background-color: var(--white-color);
-  font-size: var(--body-font-size);
-}
+

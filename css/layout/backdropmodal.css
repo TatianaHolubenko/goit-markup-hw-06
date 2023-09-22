@@ -163,7 +163,7 @@
   color: var(--iris-color);
   font-size: var(--small-font-size);
   font-weight: var(--regular-font-weight);
-  line-height: var(--input-text-line-height);
+  line-height: var(--logo-line-height);
   letter-spacing: var(--button-letter-spacing);
   text-decoration: underline;
 }
