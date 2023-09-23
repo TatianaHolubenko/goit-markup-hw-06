@@ -76,6 +76,8 @@
 .team-socials-link:focus {
   background-color: var(--ocean-color);
 }
+
+/* 768px - 1158px */
 @media screen and (min-width: 767px) {
   .team-list {
     flex-direction: row;
@@ -87,6 +89,8 @@
     width: calc((100% - 24px) / 2);
   }
 }
+
+/* 1158px - ... */
 @media screen and (min-width: 1158px) {
   .team-list {
     flex-wrap: nowrap;

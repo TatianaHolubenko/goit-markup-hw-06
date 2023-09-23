@@ -1,4 +1,4 @@
-/*Our Portfolio*/
+/* 0 - 768 */
 .portfolio-title {
   margin-bottom: 72px;
   color: var(--navy-blue-color);
@@ -21,8 +21,6 @@
   display: inline-flex;
   flex-direction: column;
   background-color: var(--white-color);
-
-  /* width: calc((100% - 48px) / 3); */
   transition: box-shadow var(--transition-duration)
     var(--transition-time-function);
 }
@@ -72,6 +70,8 @@
   transition: transform var(--transition-duration)
     var(--transition-time-function);
 }
+
+/* 768px - 1158px */
 @media screen and (min-width: 768px) {
   .portfolio-list {
     flex-direction: row;
@@ -85,6 +85,8 @@
     width: calc((100% - 48px) / 2);
   }
 }
+
+/* 1158px - ... */
 @media screen and (min-width: 1158px) {
   .portfolio-list {
     row-gap: 48px;
