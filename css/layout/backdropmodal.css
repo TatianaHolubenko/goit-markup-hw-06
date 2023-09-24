@@ -21,14 +21,15 @@
 }
 /* /BACKDROP */
 
+/* 0 - 768 */
 /* MODAL */
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
-  min-height: 584px;
+  width: 288px;
+  min-height: 623px;
   padding: 72px 24px 24px 24px;
   border-radius: 4px;
   background: var(--dairy-color);
@@ -216,4 +217,11 @@
   background-color: var(--ocean-color);
   border: none;
   fill: var(--cloud-color);
+}
+/* 768px - ... */
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 584px;
+  }
 }
